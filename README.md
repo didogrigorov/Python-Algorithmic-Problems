@@ -1,2 +1,2 @@
 # Python-Algorithmic-Problems
-Python Algorithmic problems From AlgoExpert and LeetCode mainly.
+Algorithmic problems solved using Python from AlgoExpert and LeetCode.
