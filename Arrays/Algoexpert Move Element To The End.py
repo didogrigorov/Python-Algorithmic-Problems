@@ -1,4 +1,4 @@
-def moveElementToEnd(array: Sequence[int], toMove:[int]) -> list[int]:
+def moveElementToEnd(array, toMove):
     start = 0
     end = len(array) - 1
 
