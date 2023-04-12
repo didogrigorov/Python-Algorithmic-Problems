@@ -9,12 +9,12 @@ def isPalindrom(s):
             right -= 1
 
         if s[left].lower() != s[right].lower():
-            return f"false"
+            return False
 
         left += 1
         right -= 1
 
-    return f"true"
+    return True
 
 
 word = "madame"
