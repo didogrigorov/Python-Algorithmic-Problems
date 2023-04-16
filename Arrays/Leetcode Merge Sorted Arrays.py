@@ -1,4 +1,7 @@
-def merge(nums1, m, nums2, n):
+from typing import Sequence, List
+
+
+def merge(nums1: Sequence[int], m: [int], nums2: Sequence[int], n: [int]) -> Sequence[int]:
     last_element = m + n - 1
 
     while m > 0 and n > 0:

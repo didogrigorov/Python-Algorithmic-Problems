@@ -10,7 +10,11 @@ def fourNumberSum(array, targetSum):
 
             if difference in pair_sums:
                 for pair in pair_sums[difference]:
-                    quadruplets.append(pair + [array[i], array[j]])
+                    quadr = pair + [array[i], array[j]]
+                    if quadr in quadruplets:
+                        break
+                    else:
+                        quadruplets.append(pair + [array[i], array[j]])
 
         for k in range(0, i):
             current_sum = array[i] + array[k]
@@ -23,7 +27,7 @@ def fourNumberSum(array, targetSum):
 
 
 
-array = [7, 6, 4, -1, 1, 2]
-targetSum = 16
+array = [-3,-2,-1,0,0,1,2,3]
+targetSum = 0
 
 print(fourNumberSum(array, targetSum))
