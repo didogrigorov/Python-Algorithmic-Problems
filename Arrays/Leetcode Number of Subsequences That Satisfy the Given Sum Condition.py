@@ -17,9 +17,3 @@ def numSubseq(nums: List[int], target: int) -> int:
             result %= mod
 
     return result
-
-
-
-nums = [3,5,6,7]
-target = 9
-print(numSubseq(nums,target))
