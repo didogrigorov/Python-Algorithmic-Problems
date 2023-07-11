@@ -16,8 +16,3 @@ def nextGreaterElement(nums1: List[int], nums2: List[int]) -> List[int]:
             stack.append(current)
 
     return res
-
-
-nums1 = [4,1,2]
-nums2 = [1,3,4,2]
-print(nextGreaterElement(nums1,nums2))

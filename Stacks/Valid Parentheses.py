@@ -12,5 +12,3 @@ def isValid(s: str) -> bool:
             stack.append(c)
 
     return True if not stack else False
-
-print(isValid("()[]{}"))
