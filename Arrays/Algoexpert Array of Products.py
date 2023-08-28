@@ -13,6 +13,5 @@ def arrayOfProducts(array):
 
     return products
 
-
 array = [5, 1, 4, 2]
 print(arrayOfProducts(array))
