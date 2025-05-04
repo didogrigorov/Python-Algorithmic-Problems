@@ -132,7 +132,6 @@ We welcome contributions to make this repository even better! Whether you want t
 - **Documentation**: Include comments explaining the logic and approach. Update the README if new topics or folders are added.
 - **Correctness**: Ensure the solution passes all test cases on the original platform.
 - **Efficiency**: Optimize solutions for time and space complexity where possible.
-- **Respect**: Follow the [Code of Conduct](https://github.com/didogrigorov/Python-Algorithmic-Problems/blob/main/CODE_OF_CONDUCT.md) (to be created if needed).
 
 ## 📜 License
 
